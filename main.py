@@ -3,10 +3,10 @@ import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "TOKEN"
 
 # Set up Telegram Bot
-updater = Updater(token="6156173044:AAFIugymGRv2SVLKsYC6rL5vfDUBjvodEOY", use_context=True)
+updater = Updater(token="TOKEN", use_context=True)
 dispatcher = updater.dispatcher
 
 def chatbot(update, context):
